@@ -1,0 +1,1414 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+
+
+a{
+    text-decoration: none !important;
+}
+/* navbar section */
+
+#customItem1, #customItem2, #customItem3, #customItem4, #customItem5{
+    color: #000;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+#custom1, #custom2, #custom3, #custom4, #custom5{
+    color: #000;
+    font-size: 15px;
+    padding-left: 15px;
+    
+}
+.nav-logo-image{
+    height: 50px;
+    width: 150px;
+}
+
+
+/* navbar section */
+
+/* banner section */
+
+.carousel-item {
+    height: 100vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption {
+    bottom: 270px;
+}
+
+.carousel-caption h5 {
+    font-size: 40px;
+}
+
+.carousel-caption p {
+    font-size: 20px;
+}
+
+@media (max-width: 992px) {
+    .carousel-item {
+        height: 100%;
+    }
+
+    .carousel-caption {
+        bottom: 200px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 35px;
+    }
+
+    .carousel-caption p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 100%;
+    }
+
+    .carousel-caption {
+        bottom: 130px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 30px;
+    }
+
+    .carousel-caption p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-item {
+        height: 100%;
+    }
+
+    .carousel-caption {
+        bottom: 10px;
+        margin-top: 0px;
+        padding: 10px;
+    
+    }
+
+    .carousel-caption h5 {
+        font-size: 18px;
+    }
+
+    .carousel-caption p {
+        font-size: 12px;
+    }
+}
+
+    
+/* banner section */
+
+
+/*  why choose us section*/
+.about-allshore{
+    background-color: #FFFFFF;
+}
+.allshore-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 65px auto;
+}
+.allshore-content{
+    flex:1;
+    width: 100%;
+    margin: 0px 25px;
+    
+}
+.allshore-content-heading{
+    font-size: 40px;
+    color: #e7a324;
+    text-shadow: 2px 2px 0 #008B74;
+}
+.allshore-content-para{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: #000;
+}
+.allshore-btn{
+    background: linear-gradient(to right, #ec5555,#ffc75f, #0ed7b6);
+    color: #fff;
+    padding: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    height: 40px;
+    width: 140px;
+    background-size: 200% 100%;
+    border-width: 0;
+    transition: background-postion 0.4s ease-in-out;
+    text-decoration: none;
+}
+.allshore-btn:hover{
+    background-position: right;
+    text-decoration: none;
+}
+@media (max-width: 576px) {
+    .allshore-btn {
+        font-size: 10px;
+        padding: 8px;
+        height: 35px;
+        width: 120px;
+    }
+}
+
+
+.allshore-image{
+    flex:1;
+    width: 100%;
+    margin: auto;
+}
+.allshore-image img{
+    width: 100%; 
+    height: auto;
+    border-radius: 10px;
+}
+@media screen and (max-width: 768px){
+    .about-allshore{
+        margin: 0px;
+    }
+    .allshore-container{
+        width: 100%;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px 40px;
+    }
+    .allshore-content{
+        width: 100%;
+        margin: 35px 0px;
+    }
+    .allshore-content-heading{
+        font-size: 30px;
+    }
+    .allshore-content-para{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .allshore-btn{
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+    .allshore-image{
+        width: 100%;
+    }
+}
+/* whyUs section */
+
+/* Our services */
+.services-bg{
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+}
+.services-heading{
+    text-align: center;
+    font-size: 40px;
+    color: #e7a324;
+    text-shadow: 2px 2px 0 #008B74;
+}
+.services-para{
+    font-size: 35px;
+}
+.single-service {
+    width: 100%;
+    height: 100%;
+    background: #212121;
+    padding: 30px;
+    transition: all 0.9s ease 0s;
+}
+
+.services-card-icon{
+    color: #212121;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration-line: none;
+    
+}
+.services-card-icon a{
+    color: #212121;
+    text-decoration: none;
+    font-size: 16px;
+}
+.services-card-heading{
+    color: #008B74;;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.services-card-para{
+    font-size: 16px;
+    color: #fff;
+}
+
+.services-icon :hover{
+    font-size: 120px;
+    transition: 0.9s;
+    color: #fff;
+}
+.single-service:hover{
+    background: tomato;
+}
+@media (max-width: 575.98px){
+    .single-service{
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    .row{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .col-12{
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+/* Our services */
+
+
+/* Our clients */
+.client-bg {
+    background: #FFFFFF;
+    margin-bottom: 30px;
+}
+.slider-area h2 {
+    font-size: 40px;
+    color: #e7a324;
+    margin-top: 30px;
+    text-shadow: 2px 2px 0 #008B74;
+    text-align: center;
+
+}
+.client-logo-image{
+    width: 170px;
+    height: 90px;
+}
+.wrapper-clients {
+    
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+    border-radius: 180px;
+    padding: 2.5rem;
+    background: #FFFFFF;
+    
+}
+.client-item {
+    animation: animate 20s alternate linear infinite;
+}
+.wrapper-clients:hover .client-item {
+    animation-play-state: paused;
+}
+@keyframes animate {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-1100%, 0, 0);
+    }
+}
+@media (max-width: 767px) {
+    .slider-area h2 {
+        font-size: 30px;
+    }
+    .wrapper-clients {
+        width: 100%;
+        border-radius: 0;
+        padding: 0;
+    }
+    
+}
+/* Our clients */
+
+
+/* footer section */
+.bg-footer {
+    background-color: #f57542;
+    
+}
+
+.footer-logo-image {
+    height: 100%;
+    width: 300px;
+    
+}
+
+.footer-heading {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.footer-list {
+    color: #000000; 
+}
+
+.footer-list a {
+    color: inherit; 
+    text-decoration: none; 
+}
+
+.footer-list a:hover {
+    text-decoration: underline; 
+}
+.footer-copyright {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.footer-copyright-para{
+    font-size: 16px;
+}
+.footer-copyright-span{
+    color: #f57542;
+}
+/*.footer-image-card{
+    border: solid;
+}
+.footer-links-card{
+    border: solid;
+    text-align: center;
+}
+.footer-services-card{
+    border: solid;
+    text-align: center;
+}
+.footer-contact-card{
+    border: solid;
+    text-align: center;
+}*/
+
+/* footer section */
+
+/* About Us */
+
+/* About Section  */
+
+.bg-aboutUs-section-1{
+    background-color: rgb(243, 96, 70);
+    background-size: cover;
+}
+.bg-aboutUs-section-2{
+    background-color: #ffc75f;
+}
+.bg-aboutUs-section-3{
+    background-color: #73f3dd;
+}
+.bg-aboutUs-image{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+}
+.bg-aboutUs-content-heading{
+    font-size: 40px;
+    color: #e7a324;
+    margin-top: 30px;
+    text-shadow: 2px 2px 0 #008B74;
+}
+.bg-aboutUs-content-heading-2{
+    font-size: 40px;
+    color: #008B74;
+    margin-top: 30px;
+    text-shadow: 2px 2px 0 rgb(243, 96, 70);
+}
+.bg-aboutUs-content-heading-3{
+    font-size: 40px;
+    color: rgb(243, 96, 70);
+    margin-top: 30px;
+    text-shadow: 2px 2px 0 #e7a324;
+}
+.bg-aboutUs-content-para{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+/* About Section */
+
+/*Engagement section */
+
+
+.engagement-main-heading {
+    font-size: 40px;
+    color: #e7a324;
+    margin-top: 30px;
+    text-shadow: 2px 2px 0 #008B74;
+}
+
+.engagement-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.engagement-card {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#ffffff 50%, #2c7bfe 50%);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    text-align: center;
+    transition: 0.5s;
+}
+.engagement-heading{
+    font-size: 20px;
+    font-weight: 600;
+    color: #1f194c;
+    margin: 1em 0;
+}
+.engagement-para{
+    color: #575a7b;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+}
+.engagement-icon-wrapper{
+    background-color: #2c7bfe;
+    position: relative;
+    margin: auto;
+    font-size: 30px;
+    height: 2.5em;
+    width: 2.5em;
+    color: #FFFFFF;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+}
+.engagement-card:hover{
+    background-position: 0 100%;
+}
+.engagement-card:hover .engagement-icon-wrapper{
+    background-color: #ffffff;
+    color: #2c7bfe;
+}
+
+.engagement-heading:hover{
+    color: #ffffff;
+}
+.engagement-para:hover{
+    color: #ffffff;
+}
+
+
+
+/* Our Engagement */
+
+
+
+/* About Us */
+
+/*Product Engineering*/
+
+/* banner all services section */
+.bg-banner-services-section{
+    background-image: url("../Images/5153829.jpg");
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+}
+.bg-banner-services-section-heading{
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.bg-banner-services-section-heading a{
+    color: #000;
+}
+.services-achor{
+    font-weight: 0;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+/* banner all services section */
+
+/* About Product Engineering */
+.bg-sub-product-eng{
+    background: url("../Images/website-hosting-concept-with-bright-light\ \(1\).jpg");
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+    background-size: cover;
+}
+.inner-section{
+    width: 55%;
+    float: right;
+    padding: 60px;
+    background-color: #fdfdfd;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+}
+.inner-section-heading{
+    font-size: 40px;
+    color: #e7a324;
+    text-shadow: 2px 2px 0 #008B74;
+}
+.inner-section-para{
+    font-size: 16px;
+}
+@media screen and (max-width: 1200px){
+    .inner-section{
+        padding: 80px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .bg-sub-product-eng{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-section{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px){
+    .bg-sub-product-eng{
+        padding: 0;
+    }
+    .inner-section{
+        padding: 60px;
+    }
+    
+}
+/* About Product Engineering */
+
+/* product Engineering services */
+.bg-product-services {
+    background-color: #FFFFFF;
+    padding: 20px 0; /* Added padding for some spacing */
+}
+
+.bg-product-services-heading {
+    font-size: 40px; 
+    color: #e7a324;
+    text-shadow: 2px 2px 0 #008B74;
+}
+
+.product-card {
+    width: 100%; 
+    max-width: 320px; 
+    height: auto; 
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px; /* Adjusted margin to allow spacing between cards */
+}
+
+.product-card-heading {
+    font-size: 20px; 
+    color: #FFFFFF;
+}
+
+.product-card-para {
+    font-size: 14px; 
+    line-height: 22px;
+    margin: 20px 0; 
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.product-images {
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.product-card-body {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background: #1f3d4738;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    transition: 2s;
+}
+
+.product-card:hover .product-card-body {
+    right: 0;
+}
+
+.centered-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 576px) {
+    .bg-product-services-heading {
+        font-size: 24px;
+    }
+    .product-card {
+        margin-bottom: 20px; 
+    }
+    .product-card-heading {
+        font-size: 18px;
+    }
+    .product-card-para {
+        font-size: 12px;
+        line-height: 20px;
+        margin: 10px 0;
+    }
+}
+
+
+/* product Engineering Services */
+
+/* product Engineering Why choose */
+
+.bg-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #FFFFFF;
+}
+
+.product-container {
+    position: relative;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.product-whyUs-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+}
+
+.product-whyUs-card:nth-child(even) {
+    flex-direction: column-reverse;
+}
+
+.product-whyUs-img {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: #000;
+}
+
+.product-whyUs-card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-whyUs-content {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-whyUs-content div {
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .product-container {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+        margin: 50px;
+    }
+    .product-whyUs-card {
+        flex-direction: row;
+        margin: 10px 0;
+    }
+    .product-whyUs-card:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    .product-whyUs-img,
+    .product-whyUs-content {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 600px) {
+    .product-container {
+        width: 100%;
+        margin: 20px;
+    }
+    .product-whyUs-card {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+    .product-whyUs-card:nth-child(even) {
+        flex-direction: column;
+    }
+    .product-whyUs-img,
+    .product-whyUs-content {
+        width: 100%;
+    }
+    .product-whyUs-content {
+        height: 200px;
+        padding: 10px;
+    }
+    .product-whyUs-content div {
+        font-size: 14px; /* Adjust font size for better readability */
+        padding: 10px;
+    }
+    .product-whyUs-img {
+        height: 200px; /* Adjust image height for smaller screens */
+    }
+}
+
+@media (max-width: 400px) {
+    .product-container {
+        width: 100%;
+        margin: 10px;
+    }
+    .product-whyUs-card {
+        flex-direction: column;
+        margin: 5px 0;
+    }
+    .product-whyUs-card:nth-child(even) {
+        flex-direction: column;
+    }
+    .product-whyUs-img,
+    .product-whyUs-content {
+        width: 100%;
+    }
+    .product-whyUs-content {
+        height: 150px;
+        padding: 5px;
+    }
+    .product-whyUs-content div {
+        font-size: 12px; /* Further adjust font size for smaller screens */
+        padding: 5px;
+    }
+    .product-whyUs-img {
+        height: 150px; /* Further adjust image height for smaller screens */
+    }
+}
+/* why choose Product ENG services */
+
+/*Product Engineering */
+
+/*cloud and deveOps */
+
+/*About cloud and deveops */
+
+.bg-sub-cloud-devops{
+    background: url("../Images/saas-concept-collage.jpg");
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+    background-size: cover;
+}
+.inner-section-cloud{
+    width: 55%;
+    float: right;
+    padding: 60px;
+    background-color: #fdfdfd;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+}
+
+.inner-section-cloud-heading{
+    font-size: 40px;
+    color: #e7a324;
+    text-shadow: 2px 2px 0 #008B74;
+}
+.inner-section-cloud-para{
+    font-size: 16px;
+}
+@media screen and (max-width: 1200px){
+    .inner-section-cloud{
+        padding: 80px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .bg-sub-cloud-devops{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-section-cloud{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px){
+    .bg-sub-cloud-devops{
+        padding: 0;
+    }
+    .inner-section-cloud{
+        padding: 60px;
+    }
+    
+}
+
+/* About cloud and deveops */
+
+/*cloud services */
+
+.bg-container-cloud-services {
+    background-color: #ffffff;
+
+    background-size: cover;
+}
+.cloud-services-main-heading{
+    font-size: 40px;
+    color: #e7a324;
+    text-shadow: 2px 2px 0 #008B74;
+}
+
+.cloud-services-image {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    
+}
+
+.cloud-services-heading {
+    color: #1f2933;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cloud-services-paragraph {
+    color: #7b8794;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* cloud services */
+
+
+/*devop services */
+.bg-container-devlop-services {
+    background-color: #ffffff;
+
+    background-size: cover;
+}
+.devlop-services-main-heading{
+    font-size: 40px;
+    color: #e7a324;
+    text-shadow: 2px 2px 0 #008B74;
+}
+
+.devlop-services-image {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    
+}
+
+.devlop-services-heading {
+    color: #1f2933;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.devlop-services-paragraph {
+    color: #7b8794;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/*devop services */
+
+/*cloud and deveops */
+
+/* technology staffing */
+
+/* About techonolgy staffing */
+
+.bg-sub-technology-section{
+    background: url("../Images/businessman-blurred-background-with-people-connection-icon-business-leadership-chart.jpg");
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+    background-size: cover;
+}
+.inner-section-technology{
+    width: 55%;
+    float: right;
+    padding: 60px;
+    background-color: #fdfdfd;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+}
+
+.inner-section-technology-heading{
+    font-size: 40px;
+    color: #e7a324;
+    text-shadow: 2px 2px 0 #008B74;
+}
+.inner-section-technology-para{
+    font-size: 16px;
+}
+@media screen and (max-width: 1200px){
+    .inner-section-technology{
+        padding: 80px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .bg-sub-technology-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-section-technology{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px){
+    .bg-sub-technology-section{
+        padding: 0;
+    }
+    .inner-section-technology{
+        padding: 60px;
+    }
+    
+}
+/* About technology staffing */
+
+/* our staff */
+
+.staffing-card-image{
+    height: 70px;
+    width: 100px;
+}
+.bg-staffing{
+    background-color: #FFFFFF;
+}
+
+.bg-staffing-para{
+    font-size: 35px;
+}
+
+.staff-card{
+    background-color: #FFFFFF;
+    text-align: center;
+    border: 1px solid;
+    border-color: darkgrey;
+    border-radius: 10px;
+}
+
+.staff-card-heading{
+    font-size: 24px;
+}
+.staff-card-para{
+    font-size: 16px;
+}
+.staffing-card-image{
+    height: 100px;
+    width: 150px;
+}
+/* our staff */
+.bg-staff-services{
+    background-color: #FFFFFF;
+}
+.bg-staff-services-heading{
+    font-size: 40px;
+    color: #e7a324;
+    text-shadow: 2px 2px 0 #008B74;
+}
+
+.staff-card{
+    width: 100%;
+    max-width: 320px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+
+.staff-card-heading{
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.staff-card-para{
+    font-size: 16px;
+    line-height: 25px;
+    margin: 40px 0;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.staff-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.staff-card-body{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position : absolute;
+    background: #1f3d4738;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 2s;
+    
+}
+.staff-card:hover .staff-card-body{
+    right: 0;
+}
+
+/* technology staffing */
+
+/* CRM Implementation */
+
+/* About CRM Implementation */
+.bg-sub-crm-section{
+    background: url("../Images/cloud-storage-background-business-network-design.jpg");
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+    background-size: cover;
+}
+.inner-section-crm{
+    width: 55%;
+    float: right;
+    padding: 60px;
+    background-color: #fdfdfd;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+}
+
+.inner-section-crm-heading{
+    font-size: 40px;
+    color: #e7a324;
+    text-shadow: 2px 2px 0 #008B74;
+}
+.inner-section-crm-para{
+    font-size: 16px;
+}
+@media screen and (max-width: 1200px){
+    .inner-section-crm{
+        padding: 80px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .bg-sub-crm-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-section-crm{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px){
+    .bg-sub-crm-section{
+        padding: 0;
+    }
+    .inner-section-crm{
+        padding: 60px;
+    }
+    
+}
+/* About CRM Implementation*/
+
+/*salesforce*/
+
+.bg-container-salesforce-services {
+    background-color: #ffffff;
+}
+.salesforce-services-main-heading{
+    font-size: 40px;
+    color: #e7a324;
+    text-shadow: 2px 2px 0 #008B74;
+}
+
+.salesforce-services-image {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    
+}
+
+.salesforce-services-heading {
+    color: #1f2933;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.salesforce-services-paragraph {
+    color: #7b8794;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*salesforce*/
+
+/* Dynamics */
+.dynamics-heading{
+    font-size: 40px;
+    color: #e7a324;
+    text-shadow: 2px 2px 0 #008B74;
+}
+.dynamics-para{
+    font-size: 20px;
+}
+/* Dynamics */
+/* CRM Implementation */
+
+/* Digital Transformation */
+
+/* About digital transformation */
+
+.bg-sub-digital-section{
+    background: url("../Images/business-people-using-internet.jpg");
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+    background-size: cover;
+}
+.inner-section-digital{
+    width: 55%;
+    float: right;
+    padding: 60px;
+    background-color: #fdfdfd;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+}
+
+.inner-section-digital-heading{
+    font-size: 40px;
+    color: #e7a324;
+    text-shadow: 2px 2px 0 #008B74;
+}
+.inner-section-digital-para{
+    font-size: 16px;
+}
+@media screen and (max-width: 1200px){
+    .inner-section-digital{
+        padding: 80px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .bg-sub-digital-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-section-digital{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px){
+    .bg-sub-digital-section{
+        padding: 0;
+    }
+    .inner-section-digital{
+        padding: 60px;
+    }
+    
+}
+
+/* About digital transformation */
+/* services of Digital transformation */
+.bg-container-digital-services {
+    background-color: #ffffff;
+
+    background-size: cover;
+}
+.digital-services-main-heading{
+    font-size: 40px;
+    color: #e7a324;
+    text-shadow: 2px 2px 0 #008B74;
+}
+
+.digital-services-image {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    
+}
+
+.digital-services-heading {
+    color: #1f2933;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.digital-services-paragraph {
+    color: #7b8794;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* srvices of digital transformation */
+
+/* Digital Transformation */
+
+/* Careers */
+.careers-logo-image{
+    height: 300px;
+    width: 100%;
+    margin-top: 30px;
+    
+}
+/*.bg-careers{
+    background-image: url("../Images/corporate-portrait-office-workers-employees/5471.jpg");
+    background-size: cover;
+    width: 100%;
+}*/
+/*.bg-aboutUs-overlay{
+    background: rgba(249, 248, 248, 0.548);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}*/
+.career-heading{
+    font-size: 40px;
+    color: #e7a324;
+    margin-top: 30px;
+    text-shadow: 2px 2px 0 #008B74;
+    margin-top: 80px;
+}
+.aboutUs-heading2{
+    font-size: 45px;
+}
+.careers-card-para{
+    font-size: 18px;
+    margin-right: 20px;
+    
+}
+/*current openings */
+.table-heading{
+    color: #ec5555;
+    font-size: 25px;
+    font-weight: 600;
+}
+.modal-span{
+    font-weight: bold;
+}
+.modal-para{
+    font-weight: normal;
+}
+.job-link{
+    color: #2c7bfe;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* current openings */
+/* Careers */
+
+/* contact Us */
+/* contact section*/
+.bg-contactUs {
+    background-color: #FFFFFF;
+}
+
+.content-box{
+    width: 100%;
+}
+.contactUs-heading{
+    font-size: 40px;
+    color: #e7a324;
+    text-shadow: 2px 2px 0 #008B74;
+}
+.contactUs-icon {
+    font-size: 20px;
+}
+.contactUs-text {
+    font-size: 16px;
+    color: #000;
+    font-weight: 300;
+    
+}
+.contactUs-text h1 {
+    font-weight: 500;
+    font-size: 25px;
+    color: #00bcd4;
+}
+
+.main-input {
+    max-width: 600px;
+    margin: 0 auto 4rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.top-inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.top-inputs input,
+.main-input input[type="text"],
+.main-input textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.btn-ref{
+    color: #FFFFFF;
+}
+.allshore-btn:hover a{
+    color: #FFFFFF;
+}
+.contactUs-text h1 {
+    font-weight: 500;
+    color: #00bcd4;
+}
+
+
+
+
+
+
+/* contact section */
+
+/*location section */
+.bg-map{
+    background-image: url("../Images/pink-blue-pushpins-showing-marking-location-map.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+/* location section */
+
+/* contact Us */
